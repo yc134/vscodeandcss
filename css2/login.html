@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录 - 澳门城市大学</title>
+    <link rel="stylesheet" href="css/commons.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="img/1.jpg" alt="Login Background" class="background-image">
+        <form action="/login" method="post">
+            <div class="login-box">
+                <div class="header">
+                    <img src="img/校徽.jpg" alt="University Logo" class="logo">
+                    <div class="text">
+                        <h2>澳门城市大学</h2>
+                        <p class="grey-text">Universidade da Cidade de Macau</p>
+                        <p class="black-text">City University of Macau</p>
+                    </div>
+                </div>
+                <label for="username">Username(Teacher No./Student No.):</label>
+                <input type="text" id="username" name="username" placeholder="" required>
+                <label for="password">Password(Same as URP platform):</label>
+                <input type="password" id="password" name="password" placeholder="" required>
+                <button type="button" onclick="login()">LOGIN</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            // 这里可以添加验证逻辑，例如检查用户名和密码是否正确
+            if (username === "admin" && password === "admin") {
+                window.location.href = 'index.html'; // 登录成功后跳转到index.html
+            } else {
+                alert('Invalid username or password');
+            }
+        }
+    </script>
+</body>
+
+</html>
