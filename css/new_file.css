@@ -1,0 +1,391 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	width:80%;
+	margin:8px 10%;
+	
+}
+.float-left{
+	float: left;
+	width:50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.float-left ul{
+	width:100%;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+}
+.float-left ul li{
+	width:15%;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.float-left ul li a{
+	text-decoration: none;
+	color:#666;
+	display: inline-block;
+	
+}
+.float-left ul li a:hover{
+    color: #009373;
+}
+.float-left img{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.float-right{
+	float: right;
+}
+.float-right img{
+	width:20px;
+	height:20px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 8px;
+	
+}
+.li{
+	width: 80%;
+	margin:10px 10%;
+}
+.li img{
+	float: left;
+	width:15%;
+}
+.li ul{
+	width:80%;
+	float: right;
+	
+}
+.li ul li:first-child{
+	margin-left: 40%;
+}
+.li ul li{
+	width:8%;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.li ul li a{
+	text-decoration: none;
+	color:#000;
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: 60px;
+}
+.li ul li a:hover{
+    color: #009373;
+}
+.banner{
+	width:80%;
+	margin:0 10%;
+}
+.banner img{
+	width:100%;
+	margin-top:20px;
+	position:relative;
+}
+.bottom{
+	position: absolute;
+    background-color: #000;
+	opacity: .5;
+	width:80%;
+	height:30px;
+	line-height: 30px;
+	margin-top: -5px;
+	color: white;
+	
+}
+.bottom p{
+	margin-left: 10px;
+}
+.center{
+	width:80%;
+	margin:80px 10%;
+	clear: both;
+	color: #009373;
+}
+.we{
+	width:50%;
+	float: left;
+}
+.we p:first-child{
+	width:50%;
+	font-size: 20px;
+}
+.we p:nth-child(2){
+	font-size: 32px;
+	color:black;
+	line-height:60px;
+}
+.we p:nth-child(3){
+	color: black;
+	width:90%;
+	line-height:28px;
+}
+.we button{
+	width:15%;
+	background-color: #009373;
+	color: white;
+	padding:10px 15px;
+	border: 0;
+	margin:20px 0;
+}
+.right{
+	width:48%;
+	float: right;
+	height:500px;
+	display: inline-block;
+	position: relative;
+}
+.green{
+	position: absolute;
+	bottom: 60px;
+	left:0;
+	background-color: #009373;
+	width:60%;
+	height:270px;
+}
+.right img{
+	width:90%;
+	z-index: 999;
+	position: absolute;
+	padding-left: 10%;
+}
+.box3{
+	width:100%;
+	position: relative;
+	clear: both;
+}
+.left{
+	background-color: #F7F7F7;
+	width:50%;
+	position: absolute;
+	z-index: 999;
+	font-size: 32px;
+	
+}
+
+.left p:first-child{
+	padding-left: 23%;
+	margin: 40px 0;
+	display: inline-block;
+}
+.left p:nth-child(2){
+	font-size: 18px;
+	float: right;
+	padding-right: 5%;
+	margin-top: 7%;
+}
+.left p:nth-child(2):hover{
+	color: #009373;
+}
+.sm-box{
+	padding-left: 23%;
+	float: left;
+	margin: 10px 0;
+}
+.sm-box img{
+	width:130px;
+	height: 130px;
+	float: left;
+	display: inline-block;
+}
+.date{
+	color: #009373;
+	width:15%;
+	margin-right:56%;
+	}
+	.date3{
+		color: #009373;
+		width:15%;
+		margin-right:51%;
+		}
+		.date2{
+			color: #009373;
+			width:15%;
+			margin-right:53%;
+			}
+			.news {
+				width: 70%;
+				font-size: 18px;
+				margin-left: 4%;
+				display: inline-block;
+				color: #000;
+				transition: transform 0.3s ease; /* 添加过渡效果，使旋转更平滑 */
+			}
+			
+			.news:hover {
+				color: #009373;
+				transform: rotate(360deg); /* 鼠标悬停时文字旋转360度 */
+			}
+.right2{
+    background-color: #F1F1F1;
+    width:50%;
+    position: absolute;
+    height:720px;
+    z-index: 999;
+    font-size: 32px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+.right2 p:first-child{
+    padding-left: 8%;
+    margin: 40px 0;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.5s ease-in-out; /* 添加过渡效果，用于字体缩放和颜色变化等 */
+}
+
+.right2 p:first-child:hover{
+    transform: translateX(-10px) scale(1.1); /* 鼠标悬停时，字体向左移动10px并放大1.1倍 */
+    color: #009373;
+}
+
+.right2 p:nth-child(2){
+    font-size: 18px;
+    float: right;
+    padding-right: 5%;
+    margin-top: 6%;
+    transition: transform 0.3s ease, color 0.5s ease-in-out; /* 添加过渡效果，用于字体缩放和颜色变化等 */
+}
+
+.right2 p:nth-child(2):hover{
+    transform: translateX(-10px) scale(1.1); /* 鼠标悬停时，字体向左移动10px并放大1.1倍 */
+    color: #009373;
+}
+.wg-box{
+	position: relative;
+	width:60px;
+	height:80px;
+	background-color:#009373;
+	color: white;
+	text-align: center;
+}
+.wg-box2{
+	position: absolute;
+	top: 50%;
+	height:40px;
+	text-align: center;
+	width:100%;
+	color: black;
+	font-size: 18px;
+	margin: 0 auto;
+	background-color: white;
+	line-height: 40px;
+	
+}
+.news2 {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: transform 0.3s ease; /* 添加过渡效果，使旋转更平滑 */
+}
+
+.news2:hover {
+    color: #009373;
+    transform: rotate(360deg); /* 鼠标悬停时文字旋转360度 */
+}
+.dis{
+	display: inline-block;
+	margin:15px 0;
+	margin-left:8%;
+}
+.course{
+	width:80%;
+	margin:0 10%;
+	margin-top: 800px;
+	height:400px;
+	
+}
+.course p:first-child{
+	margin: 40px 0;
+	font-size: 32px;
+	padding-left:2%;
+	display: inline-block;
+}
+.course p:nth-child(2){
+	font-size: 18px;
+	float: right;
+	padding-right: 5%;
+	margin-top: 4%;
+}
+.course p:nth-child(2):hover{
+	color: #009373;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box{
+    position: relative;
+    width: 30%;
+}
+
+.img-box img{
+    width: 100%;
+    transition: transform 0.3s ease; /* 添加过渡效果，持续时间0.3秒，过渡方式为缓动（ease） */
+}
+
+.img-box img:hover{
+    transform: scale(1.2); /* 鼠标悬停时，将图片放大到原来的1.2倍 */
+}
+.bottom-box{
+	position: absolute;
+	width:100%;
+	height:40px;
+	background-color:#F1F1F1;
+	margin-top: -7px;
+	border-bottom: 2px solid #009373;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+.bottom-box:hover{
+	background-color: #009373;
+}
+
+.footer{
+	width: 100%;
+	background-color: #262626;
+	float: left;
+	margin-top:300px;
+}
+.footer img{
+	width: 15%;
+	margin-left: 11%;
+	margin-top: 2%;
+	display: inline-block;
+	float: left;
+	
+}
+.footer p{
+	color: white;
+	display: inline-block;
+	width: 40%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	color: #999999;
+	line-height: 40px;
+}
+.f{
+	padding:20px 0;
+	height:40px;
+	text-align: center;
+	background-color: #262626;
+	color:#999999;
+	float: left;
+	width:100%;
+	
+}
